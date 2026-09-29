@@ -112,6 +112,27 @@ int main() {
         std::cout<<num <<'\n';
     }
 
+    //Exercice 1.9
+
+    for (int numb=1; numb<=30;numb++)
+    {
+        if (numb %3==0 && numb%5==0)
+        {
+            std::cout<<"FizzBuzz\n";
+        }
+        else if (numb%3==0)
+        {
+            std::cout<<"Fizz\n";
+        }
+        else if (numb%5==0)
+        {
+            std::cout<<"Buzz\n";
+        }
+        else {
+            std::cout<< numb <<'\n';
+        }
+    }
+
 
 
 
