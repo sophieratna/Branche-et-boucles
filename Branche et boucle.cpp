@@ -1,24 +1,34 @@
-//
-// Created by jamy1 on 23.09.2026.
-//
+#include <iostream>
 
-#include "Branche et boucle.h"
-#include <print>
+using namespace std;
 
-//Exercice 1.1
-int main()
-{
+int main() {
+
+    // Exercice 1.1
     int pv = 0;
-    std::println("Game Over");
+
+    {
+        if (pv ==0)
+            std::cout <<"Game Over !";
+    }
+
+
 
 //Excercie 1.2
-    int munition =7
+    int munition =7;
     {
-        if (munition == %')';
-        std::println("pair");
+        if (munition == 0);
+        std::println( "pair" );
     }
-    {else  (munition == %')';
-        std::println("impair");
+    {
+        else  (munition == 0);
+        std::println( "impair" );
     }
 
 // Exercice 1.3
+
+    char
+    //
+
+    return 0;
+}
