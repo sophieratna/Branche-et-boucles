@@ -1,34 +1,90 @@
 #include <iostream>
 
 using namespace std;
-
+  // Exercie 1.1
 int main() {
-
-    // Exercice 1.1
-    int pv = 0;
+    int pv = 42;
 
     {
         if (pv ==0)
-            std::cout <<"Game Over !";
+            std::cout <<"Game Over !\n";
     }
 
+    //Exercice 1.2
 
+    int munitions = 8;
 
-//Excercie 1.2
-    int munition =7;
-    {
-        if (munition == 0);
-        std::println( "pair" );
+    if (munitions %2 ==0) {
+        std::cout<< "pair\n";
     }
-    {
-        else  (munition == 0);
-        std::println( "impair" );
+    else {
+        std::cout<<"impair\n";
     }
 
-// Exercice 1.3
+    //Exercie 1.3
 
-    char
-    //
+    int Pv =36;
+    if (Pv>=75) {
+        std::cout<<"intact\n";
+    }
+    else if (Pv >=41) {
+        std::cout <<"égratine\n";
+    }
+    else if (Pv>0) {
+        std::cout<<"critique\n";
+    }
+    else {
+    std::cout<<"Game over\n";
+}
+// Exercice 1.4
+
+    char touche = 's';
+
+    switch (touche) {
+        case 'z':
+            std::cout<<"Avancez\n";
+            break;
+        case 's':
+            std::cout<<"Reculez\n";
+            break;
+        case'q':
+            std::cout<<"Gauche\n";
+            break;
+        case'd':
+            std::cout<<"Droite\n";
+            break;
+        default:
+
+    }
+
+    //Excercie 1.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     return 0;
 }
