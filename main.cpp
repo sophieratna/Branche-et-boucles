@@ -90,8 +90,27 @@ int main() {
         std::cout<<"7 x " << multiplicateur <<" =" << multiplicateur *7 <<'\n';
     }
 
+    //Exercice 1.8
 
+    for (int numbers =1; numbers<=100;numbers++)
+ {
+     std::cout<< numbers << '\n';
+     if (numbers %17==0)
+     {
+         std::cout<<"divisible par 17\n";
+         break;
+     }
+ }
 
+    for (int num =1; num<=30;num++)
+    {
+
+        if (num %3==0)
+        {
+            continue;
+        }
+        std::cout<<num <<'\n';
+    }
 
 
 
