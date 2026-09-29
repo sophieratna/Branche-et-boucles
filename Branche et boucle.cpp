@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <print>
 using namespace std;
   // Exercie 1.1
 int main() {
@@ -58,6 +58,12 @@ int main() {
     }
 
     //Excercie 1.5
+ int countdown =10;
+    while (countdown>0) {
+        std::println("{}",countdown);
+        countdown--;
+    }
+    std::println("Decollage");
 
 
 
