@@ -38,9 +38,9 @@ int main() {
     }
     // Exercice 1.4
 
-    char touche = 's';
 
-    switch (touche) {
+
+    switch (char touche  ='s';touche) {
         case 'z':
             std::cout<<"Avancez\n";
             break;
@@ -54,6 +54,7 @@ int main() {
             std::cout<<"Droite\n";
             break;
         default:
+
 
     }
 
@@ -78,6 +79,7 @@ int main() {
             break;
         }
         {std::cout<<"Miss !\n";}
+        break;
     } while (true);
 
     //Excercice 1.7
